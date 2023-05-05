@@ -3,7 +3,7 @@ let usuariosController = {},
   transporter = require("../assets/Js/mail"),
   fs = require("fs"),
   path = require("path"),
-  Usuario = require("../Models/Usuario");
+  Usuario = require("../Models/usuario");
 
 usuariosController.getUsers = async (req, res) => {
   await Usuario.find()
