@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose"),
-  DatosPedido = require("./DatosPedido"),
+  DatosPedido = require("./datosPedido"),
   Productos = require("./producto"),
   pedidosRealizadosSchema = new Schema(
     {
