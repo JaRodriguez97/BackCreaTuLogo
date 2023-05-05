@@ -1,5 +1,6 @@
 let SendEmailController = {},
   fs = require("fs"),
+  path = require("path"),
   hbs = require("nodemailer-express-handlebars"),
   transporter = require("../assets/Js/mail");
 
