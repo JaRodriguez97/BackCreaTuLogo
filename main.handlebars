@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido Confirmado</title>
+  </head>
+  <body>
+    <section style="width: 100%; max-width: 100vw; color: #000">
+      <aside style="width: 100%">
+        <div style="margin: 10px auto; width: max-content; text-align: center">
+          ¡Hola!
+          <h2
+            style="
+              font-size: 2em;
+              text-transform: uppercase;
+              background-color: #ffd90033;
+            "
+          >
+            {{nombreCompleto}}
+          </h2>
+          Esta es la confirmación de tu pedido No.
+          <a href="{{link}}" target="_blank" rel="noopener noreferrer"
+            >{{id}}</a
+          >
+        </div>
+        <br />{{! !!! }} <br />{{! !!! }}
+        <section style="width: max-content; margin: auto">
+          <div style="width: max-content; margin: auto">
+            <label for="nombre">Nombre:</label><strong> {{nombre}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="apellido">Apellido:</label
+            ><strong> {{apellido}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="email">Email: </label><strong> {{email}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="fecha">Fecha: </label><strong> {{fecha}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="hora">Hora aproximada de entrega: </label
+            ><strong> {{hora}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="celular">Número teléfono: </label
+            ><strong> {{celular}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="direccion">Dirección: </label
+            ><strong> {{direccion}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="detallesUbicacion">Detalles de ubicación: </label
+            ><strong> {{detallesUbicacion}} </strong>
+          </div>
+          <div style="width: max-content; margin: auto">
+            <label for="detallesPedido">Detalles sobre el pedido: </label
+            ><strong> {{detallesPedido}} </strong>
+          </div>
+        </section>
+        <h6 style="width: max-content; margin: 30px auto">
+          **Mensaje creado automáticamente, por favor no responder.
+          <br />{{! !!! }} Considere seriamente el querer imprimir este
+          documento, pensamos en el medio ambiente.
+        </h6>
+      </aside>
+      <br />{{! !!! }} <br />{{! !!! }}
+      <div style="display: flex">
+        <img
+          style="position: relative; margin: auto"
+          width="auto"
+          height="150px"
+          src="https://creatulogo.netlify.app/assets/images/home-bg2.jpeg"
+          alt="logoGruas"
+        />
+      </div>
+    </section>
+  </body>
+</html>

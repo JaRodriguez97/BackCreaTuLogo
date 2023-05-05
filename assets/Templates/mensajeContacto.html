@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vista del mensaje por correo</title>
+  </head>
+  <body>
+    <section style="max-width:100%;color: #000;">
+      <aside style="width: 100%;">
+        <div style="margin:10px auto;width: max-content;text-align: center;">
+          ¡Hola! Mi nombre es
+          <h1
+            style="font-size: 2em;text-transform: uppercase;"
+          >{{nombreCompleto}}</h1>
+          y estoy necesitando tu ayuda de manera
+          <h2>urgente.</h2>
+        </div>
+        <br />{{! !!! }}
+        <br />{{! !!! }}
+        <div style="margin: 10px;">
+          Sin embargo te dejo este mensaje para confirmarte lo que requiero:
+          <br />{{! !!! }}
+          <br />{{! !!! }}
+          {{mensaje}}
+        </div>
+        <br />{{! !!! }}
+        <br />{{! !!! }}
+        <div style="margin: 10px;">
+          Estaré pendiente de su respuesta al correo:
+          <br />{{! !!! }}
+          <br />{{! !!! }}
+          {{email}}
+        </div>
+        <div style="margin: 10px;">
+          O a mi número de celular:
+          <br />{{! !!! }}
+          <br />{{! !!! }}
+          {{celular}}
+        </div>
+        <br />{{! !!! }}
+        <h6 style="margin: 10px;">**Mensaje creado automáticamente, por favor no
+          responder. Considere seriamente el querer imprimir este documento,
+          pensamos en el medio ambiente.</h6>
+      </aside>
+      <br />{{! !!! }}
+      <br />{{! !!! }}
+      <div style="display:flex;">
+        <img
+          style="position: relative;margin: auto;"
+          width="auto"
+          height="150px"
+          src="https://creatulogo.netlify.app/assets/images/home-bg2.jpeg"
+          alt="logoGruas"
+        />
+      </div>
+    </section>
+  </body>
+</html>
