@@ -22,6 +22,9 @@ app.use(
 //configurar el puerto
 app.set("port", process.env.PORT || 3000);
 
+//exponer la carpeta imagenes
+app.use("/imagenes", express.static(path.join(__dirname, "../assets/img")));
+
 app.use("/api/productos", productos);
 app.use("/api/sendEmail", sendMail);
 app.use("/api/usuarios", usuarios);
